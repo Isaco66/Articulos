@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ArticulosDeportivos.Vistas.Ropa.V_Detalle_Ropa">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="#E8FCF5">
+            <Label Text="Ropa" HorizontalOptions="CenterAndExpand" FontSize="Title" ></Label>
+            <Label x:Name="lblMensaje" HorizontalOptions="Center"></Label>
+            <Entry Placeholder="Tipo" x:Name="txttipo"></Entry>
+            <Entry Placeholder="Talla" x:Name="txttalla"></Entry>
+            <Entry Placeholder="Color" x:Name="txtColor"></Entry>
+            <Entry Placeholder="Codigo" x:Name="txtCodigo"></Entry>
+            <Entry Placeholder="Precio" x:Name="txtPrecio"></Entry>
+            
+            
+            <Button Text="Actualizar" x:Name="btnActualizar" BackgroundColor="Orange" TextColor="White" CornerRadius="5"></Button>
+            <Button Text="Eliminar" x:Name="btnEliminar" BackgroundColor="Red" TextColor="White" CornerRadius="5"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

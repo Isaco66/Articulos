@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ArticulosDeportivos.Vistas.Principal">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#E8FCF5">
+            <Button Margin="50" CornerRadius="10" TextColor="White" Text="Calzado" x:Name="btnCalzado" BackgroundColor="#6FC8E4"/>
+            <Button Margin="50" CornerRadius="10" TextColor="White" Text="Ropa" x:Name="btnRopa" BackgroundColor="#6FC8E4"/>
+            <Button Margin="50" CornerRadius="10" TextColor="White" Text="Accesorios" x:Name="btnAccesorios" BackgroundColor="#6FC8E4"/>
+            <Button Margin="10,100,0,0" HorizontalOptions="Start" VerticalOptions="End" CornerRadius="10" TextColor="White" Text="Salir" x:Name="btnSalir" BackgroundColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

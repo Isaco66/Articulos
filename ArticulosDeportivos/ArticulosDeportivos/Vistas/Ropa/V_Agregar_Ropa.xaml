@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ArticulosDeportivos.Vistas.Ropa.V_Agregar_Ropa">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="#A1FAF5">
+            <Label Text="Registro de Ropa" HorizontalOptions="CenterAndExpand" FontSize="Title" ></Label>
+
+            <Entry Placeholder="Tipo" x:Name="txttipo"></Entry>
+            <Entry Placeholder="Talla" x:Name="txttalla"></Entry>
+            <Entry Placeholder="Color" x:Name="txtColor"></Entry>
+            <Entry Placeholder="Codigo" x:Name="txtCodigo"></Entry>
+            <Entry Placeholder="Precio" x:Name="txtPrecio"></Entry>
+            <Button Text="Registrar" x:Name="btnRegistrar" HorizontalOptions="Center" BackgroundColor="Green" TextColor="White" CornerRadius="4"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
